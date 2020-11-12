@@ -1,0 +1,42 @@
+.productos {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.boxProduct {
+    min-width: 150px;
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 10px;
+   
+}
+
+.imgProduct img{
+    width: 100%;
+
+
+}
+.agregarProducto{
+    text-align: right;
+}
+.agregarProducto:hover{
+    color: blue;
+}
+.productName{
+    font-weight: bolder;
+}
+
+.productInfo{
+    display: flex;
+    justify-content: space-between;
+    padding:  0 5px;
+}
+.catalogo h2{
+    text-align: center;
+    padding: 5px;
+}

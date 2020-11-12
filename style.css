@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c4c4c4;
+}
+
+.headsocial{
+    background-color: #E5E5E5;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.headsocial i{
+    margin: 0 8px; 
+}
+
+.brandName{
+    background-color: black;
+    color: white;
+    height: 100px;
+    font-family:'Architects Daughter', cursive;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainNav{
+    padding: 5px;
+    background-color: #467EB2;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner img{
+    width: 100%;
+}
+
+.homeCategoria{
+    width: 100%;
+}
+
+#containerCategoria{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 15px;
+    align-items: center;
+}
+
+#banner{
+    margin: 0 0 -4px 0;
+}
+
+#categoria{
+    margin: 1%;
+}
+
+.footerSocial{
+    background-color: #E5E5E5;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.boton{
+    background-color:#689CD2;
+    color: white;
+    text-decoration: none;
+    border:black solid 2px;
+    border-radius: 20%;
+    padding: 0px 10px;
+}
+h2{
+  background-color: #689CD2;  
+}

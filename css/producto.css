@@ -1,0 +1,29 @@
+.imagenesContainer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imagenBig{
+    width: 100%;
+   
+
+}
+.imagenBig img {
+ width: 70%;
+}
+.producto{
+    width: 80%;
+    margin:  20px auto;
+    
+   
+}
+.productoDescription{
+    width: 70%;
+    margin: auto;
+}
+.precio{
+    display: flex;
+    justify-content: flex-end;
+}
+.productPrice{
+    padding-right: 20px;
+}
